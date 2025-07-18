@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Quiz</title>
   <link rel="stylesheet" href="quiz.css" />
 </head>
+
 <body>
   <div class="quiz-container">
     <!-- Category Selection -->
     <div id="category-screen">
+      <div id="name-input-screen">
+        <label for="studentName">Enter your name:</label>
+        <input type="text" id="studentName" placeholder="e.g. Rabi" />
+        <button id="startQuizBtn">Start Quiz</button>
+      </div>
+
       <h1>Select a Category</h1>
-      <!-- Buttons will be inserted here by JS -->
+      <div id="category-buttons"></div>
     </div>
 
     <!-- Quiz Screen -->
@@ -27,14 +35,17 @@
     <!-- Result Screen -->
     <div id="result-screen" class="hide">
       <h1>Quiz completed!</h1>
-      <h2 id = "result-category"></h2>
+      <h2 id="result-category"></h2>
       <h2>Your Score: <span id="score"></span></h2>
       <p>Last Scores:</p>
       <ul id="last-scores"></ul>
+      <h3>Top Online Scores</h3>
+      <ul id="leaderboard"></ul>
       <button onclick="location.reload()">Play Again</button>
     </div>
   </div>
 
-  <script src="quiz.js"></script>
+  <script type="module" src="quiz.js"></script>
 </body>
+
 </html>

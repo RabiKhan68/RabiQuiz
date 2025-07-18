@@ -74,6 +74,11 @@ ul li:hover {
     text-align: center;
 }
 
+#result-screen h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
 @media (max-width: 600px) {
   .quiz-container {
     width: 95%;

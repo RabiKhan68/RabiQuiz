@@ -17,17 +17,17 @@
     },
     {
       "question": "Which HTML element inserts JavaScript?",
-      "options": ["<script>", "<js>", "<code>", "<javascript>"],
+      "options": ["<code>", "<js>", "<script>", "<javascript>"],
       "answer": "<script>"
     },
     {
       "question": "How do you create a function in JavaScript?",
-      "options": ["function myFunc()", "def myFunc()", "func myFunc[]", "create myFunc()"],
+      "options": ["create myFunc()", "def myFunc()", "func myFunc[]", "function myFunc()"],
       "answer": "function myFunc()"
     },
     {
       "question": "Which HTML attribute is used for inline styles?",
-      "options": ["style", "css", "design", "class"],
+      "options": ["class", "css", "design", "style"],
       "answer": "style"
     },
     {
