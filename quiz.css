@@ -70,6 +70,10 @@ ul li:hover {
   color: #e74c3c;
 }
 
+#result-screen h1 {
+    text-align: center;
+}
+
 @media (max-width: 600px) {
   .quiz-container {
     width: 95%;

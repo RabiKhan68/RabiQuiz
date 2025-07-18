@@ -91,6 +91,7 @@ function showResult() {
   quizScreen.classList.add("hide");
   resultScreen.classList.remove("hide");
   scoreEl.textContent = `${score} / ${allQuestions[currentCategory].length}`;
+  document.getElementById("result-category").textContent = `Category: ${currentCategory}`; // ✅ Added
   saveScore(currentCategory, score);
   displayLastScores();
 }
