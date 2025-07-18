@@ -1,0 +1,366 @@
+{
+  "WebDev": [
+    {
+      "question": "What does HTML stand for?",
+      "options": ["Hyper Text Markup Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language", "Hyper Tool Multiplatform Layout"],
+      "answer": "Hyper Text Markup Language"
+    },
+    {
+      "question": "What does CSS stand for?",
+      "options": ["Creative Style Sheets", "Colorful Site Sheets", "Cascading Style Sheets", "Computer Style Scheme"],
+      "answer": "Cascading Style Sheets"
+    },
+    {
+      "question": "Which property sets the font size in CSS?",
+      "options": ["font-size", "font-weight", "text-size", "font-style"],
+      "answer": "font-size"
+    },
+    {
+      "question": "Which HTML element inserts JavaScript?",
+      "options": ["<script>", "<js>", "<code>", "<javascript>"],
+      "answer": "<script>"
+    },
+    {
+      "question": "How do you create a function in JavaScript?",
+      "options": ["function myFunc()", "def myFunc()", "func myFunc[]", "create myFunc()"],
+      "answer": "function myFunc()"
+    },
+    {
+      "question": "Which HTML attribute is used for inline styles?",
+      "options": ["style", "css", "design", "class"],
+      "answer": "style"
+    },
+    {
+      "question": "What does DOM stand for?",
+      "options": ["Document Object Model", "Digital Object Method", "Document Option Model", "Display Object Method"],
+      "answer": "Document Object Model"
+    },
+    {
+      "question": "How do you comment in CSS?",
+      "options": ["/* comment */", "// comment", "<!-- comment -->", "** comment **"],
+      "answer": "/* comment */"
+    },
+    {
+      "question": "Which HTML tag defines an ordered list?",
+      "options": ["<ol>", "<ul>", "<li>", "<list>"],
+      "answer": "<ol>"
+    },
+    {
+      "question": "Which CSS property affects layout flow?",
+      "options": ["float", "align", "flex", "display"],
+      "answer": "float"
+    }
+  ],
+  "Math": [
+    {
+      "question": "80% of 700 = ____?",
+      "options": ["560", "550", "565", "621"],
+      "answer": "560"
+    },
+    {
+      "question": "P is 5 times Q; Q is what percent less than P?",
+      "options": ["80%", "60%", "90%", "30%"],
+      "answer": "80%"
+    },
+    {
+      "question": "If n(U)=60, n(A)+n(B)−n(A∩B)=50 and n(A∪B)'=10, find n(A∩B).",
+      "options": ["9", "8", "10", "none"],
+      "answer": "9"
+    },
+    {
+      "question": "Solve for x: 2x + 3 = 11.",
+      "options": ["4", "5", "3", "2"],
+      "answer": "4"
+    },
+    {
+      "question": "What is the derivative of x²?",
+      "options": ["2x", "x", "x²", "2"],
+      "answer": "2x"
+    },
+    {
+      "question": "What is the integral of 2x dx?",
+      "options": ["x² + C", "2x² + C", "x + C", "2 + C"],
+      "answer": "x² + C"
+    },
+    {
+      "question": "What is 7 choose 3?",
+      "options": ["35", "21", "15", "30"],
+      "answer": "35"
+    },
+    {
+      "question": "What is the value of π (approx)?",
+      "options": ["3.14", "2.71", "1.61", "4.13"],
+      "answer": "3.14"
+    },
+    {
+      "question": "What is the mean of [5, 10, 15]?",
+      "options": ["10", "7", "12", "5"],
+      "answer": "10"
+    },
+    {
+      "question": "What is the median of [3, 1, 4, 2, 5]?",
+      "options": ["3", "2", "4", "1"],
+      "answer": "3"
+    }
+  ],
+  "GeneralKnowledge": [
+    {
+      "question": "Capital of France?",
+      "options": ["Paris", "Berlin", "Madrid", "Rome"],
+      "answer": "Paris"
+    },
+    {
+      "question": "Largest planet in solar system?",
+      "options": ["Jupiter", "Mars", "Saturn", "Earth"],
+      "answer": "Jupiter"
+    },
+    {
+      "question": "Language spoken in Brazil?",
+      "options": ["Portuguese", "Spanish", "English", "French"],
+      "answer": "Portuguese"
+    },
+    {
+      "question": "Author of ‘To Kill a Mockingbird’?",
+      "options": ["Harper Lee", "Mark Twain", "Ernest Hemingway", "F. Scott Fitzgerald"],
+      "answer": "Harper Lee"
+    },
+    {
+      "question": "Element with symbol 'O'?",
+      "options": ["Oxygen", "Gold", "Silver", "Hydrogen"],
+      "answer": "Oxygen"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "options": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Claude Monet"],
+      "answer": "Leonardo da Vinci"
+    },
+    {
+      "question": "Currency used in Japan?",
+      "options": ["Yen", "Euro", "Dollar", "Won"],
+      "answer": "Yen"
+    },
+    {
+      "question": "Longest river in the world?",
+      "options": ["Nile", "Amazon", "Yangtze", "Mississippi"],
+      "answer": "Nile"
+    },
+    {
+      "question": "Olympics are held every ____ years.",
+      "options": ["4", "3", "2", "5"],
+      "answer": "4"
+    },
+    {
+      "question": "Which country has the Great Barrier Reef?",
+      "options": ["Australia", "USA", "Mexico", "South Africa"],
+      "answer": "Australia"
+    }
+  ],
+  "History": [
+    {
+      "question": "First US President?",
+      "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
+      "answer": "George Washington"
+    },
+    {
+      "question": "WWII ended in?",
+      "options": ["1945", "1944", "1939", "1950"],
+      "answer": "1945"
+    },
+    {
+      "question": "Who discovered penicillin?",
+      "options": ["Alexander Fleming", "Marie Curie", "Louis Pasteur", "Albert Einstein"],
+      "answer": "Alexander Fleming"
+    },
+    {
+      "question": "Ancient pyramid builders?",
+      "options": ["Egyptians", "Romans", "Greeks", "Mayans"],
+      "answer": "Egyptians"
+    },
+    {
+      "question": "Year first man landed on moon?",
+      "options": ["1969", "1965", "1970", "1960"],
+      "answer": "1969"
+    },
+    {
+      "question": "Fall of Berlin Wall?",
+      "options": ["1989", "1991", "1987", "1990"],
+      "answer": "1989"
+    },
+    {
+      "question": "Renaissance began in which country?",
+      "options": ["Italy", "France", "England", "Spain"],
+      "answer": "Italy"
+    },
+    {
+      "question": "Who was 'The Maid of Orléans'?",
+      "options": ["Joan of Arc", "Catherine the Great", "Queen Victoria", "Marie Antoinette"],
+      "answer": "Joan of Arc"
+    },
+    {
+      "question": "Which empire built Machu Picchu?",
+      "options": ["Incan", "Aztec", "Mayan", "Roman"],
+      "answer": "Incan"
+    },
+    {
+      "question": "The Magna Carta was signed in?",
+      "options": ["1215", "1066", "1492", "1776"],
+      "answer": "1215"
+    }
+  ],
+  "Biology": [
+    {
+      "question": "Basic unit of life?",
+      "options": ["Cell", "Atom", "Molecule", "Organ"],
+      "answer": "Cell"
+    },
+    {
+      "question": "Powerhouse of the cell?",
+      "options": ["Mitochondria", "Nucleus", "Ribosome", "Chloroplast"],
+      "answer": "Mitochondria"
+    },
+    {
+      "question": "Which molecule carries genetic info?",
+      "options": ["DNA", "RNA", "Protein", "Lipid"],
+      "answer": "DNA"
+    },
+    {
+      "question": "Process plants use sunlight?",
+      "options": ["Photosynthesis", "Respiration", "Digestion", "Fermentation"],
+      "answer": "Photosynthesis"
+    },
+    {
+      "question": "Blood cells that carry oxygen?",
+      "options": ["Red blood cells", "White blood cells", "Platelets", "Plasma"],
+      "answer": "Red blood cells"
+    },
+    {
+      "question": "What is homeostasis?",
+      "options": ["Balance of internal environment", "Growth process", "Cell division", "Birth"],
+      "answer": "Balance of internal environment"
+    },
+    {
+      "question": "What structures do plant cells have that animal cells don't?",
+      "options": ["Cell wall and chloroplasts", "Mitochondria", "Nucleus", "Ribosomes"],
+      "answer": "Cell wall and chloroplasts"
+    },
+    {
+      "question": "Which organ filters blood?",
+      "options": ["Kidney", "Liver", "Heart", "Lung"],
+      "answer": "Kidney"
+    },
+    {
+      "question": "Largest organ in the human body?",
+      "options": ["Skin", "Liver", "Brain", "Heart"],
+      "answer": "Skin"
+    },
+    {
+      "question": "What is osmosis?",
+      "options": ["Water movement across membrane", "Protein synthesis", "Cell division", "Energy production"],
+      "answer": "Water movement across membrane"
+    }
+  ],
+  "Chemistry": [
+    {
+      "question": "Water's chemical formula?",
+      "options": ["H2O", "CO2", "O2", "NaCl"],
+      "answer": "H2O"
+    },
+    {
+      "question": "pH less than 7 means the solution is?",
+      "options": ["Acidic", "Neutral", "Basic", "Alkaline"],
+      "answer": "Acidic"
+    },
+    {
+      "question": "Atomic number equals number of?",
+      "options": ["Protons", "Neutrons", "Electrons", "Nucleons"],
+      "answer": "Protons"
+    },
+    {
+      "question": "NaCl is common?",
+      "options": ["Salt", "Sugar", "Acid", "Base"],
+      "answer": "Salt"
+    },
+    {
+      "question": "Gas used to fill balloons?",
+      "options": ["Helium", "Hydrogen", "Oxygen", "Nitrogen"],
+      "answer": "Helium"
+    },
+    {
+      "question": "Avogadro's number is approximately?",
+      "options": ["6.02×10^23", "3.14×10^2", "9.81×10^1", "1.6×10^-19"],
+      "answer": "6.02×10^23"
+    },
+    {
+      "question": "Neutral solution’s pH?",
+      "options": ["7", "1", "14", "9"],
+      "answer": "7"
+    },
+    {
+      "question": "Definition of a mole in chemistry?",
+      "options": ["6.02×10^23 particles", "1 gram", "1 liter", "1 atom"],
+      "answer": "6.02×10^23 particles"
+    },
+    {
+      "question": "What lowers activation energy in a reaction?",
+      "options": ["Catalyst", "Inhibitor", "Solvent", "Reactant"],
+      "answer": "Catalyst"
+    },
+    {
+      "question": "Reaction of HCl and Zn produces?",
+      "options": ["Hydrogen gas", "Oxygen gas", "Chlorine gas", "Nitrogen gas"],
+      "answer": "Hydrogen gas"
+    }
+  ],
+  "Physics": [
+    {
+      "question": "Force equals mass × ____?",
+      "options": ["Acceleration", "Velocity", "Distance", "Time"],
+      "answer": "Acceleration"
+    },
+    {
+      "question": "Acceleration due to gravity is about?",
+      "options": ["9.8 m/s²", "1 m/s²", "9.8 kg/m²", "9.8 m³"],
+      "answer": "9.8 m/s²"
+    },
+    {
+      "question": "Speed of light in vacuum?",
+      "options": ["3×10^8 m/s", "3×10^6 m/s", "3×10^10 m/s", "3×10^5 m/s"],
+      "answer": "3×10^8 m/s"
+    },
+    {
+      "question": "Unit of electric current?",
+      "options": ["Ampere", "Volt", "Ohm", "Watt"],
+      "answer": "Ampere"
+    },
+    {
+      "question":"What is inertia?",
+      "options":["Resistance to change in motion","Force","Mass","Energy"],
+      "answer":"Resistance to change in motion"
+    },
+    {
+      "question":"Who is the father of relativity?",
+      "options":["Albert Einstein","Isaac Newton","Nikola Tesla","Galileo"],
+      "answer":"Albert Einstein"
+    },
+    {
+      "question":"E = mc² expresses relationship between?",
+      "options":["Energy and mass","Force and mass","Power and mass","Speed and mass"],
+      "answer":"Energy and mass"
+    },
+    {
+      "question":"Unit of frequency?",
+      "options":["Hertz","Newton","Joule","Pascal"],
+      "answer":"Hertz"
+    },
+    {
+      "question":"Newton’s 3rd law is about?",
+      "options":["Action-reaction","Work-energy","Equal forces","Inverse gravity"],
+      "answer":"Action-reaction"
+    },
+    {
+      "question":"Kinetic energy formula?",
+      "options":["1/2mv²","mv","mgh","mgh"],
+      "answer":"1/2mv²"
+    }
+  ]
+}
