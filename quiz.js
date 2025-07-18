@@ -53,12 +53,23 @@ function showQuestion() {
   updateTimer();
   startTimer();
 
-  currentQuestion.options.forEach(option => {
+  // 🔀 Shuffle options
+  const shuffledOptions = shuffleArray([...currentQuestion.options]);
+
+  shuffledOptions.forEach(option => {
     const li = document.createElement("li");
     li.textContent = option;
     li.addEventListener("click", () => selectAnswer(option));
     optionsEl.appendChild(li);
   });
+}
+
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
 }
 
 function selectAnswer(selected) {
