@@ -4,34 +4,39 @@ body {
   background-color: #f0f4f8;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  align-items: flex-start; /* Changed from center to flex-start */
+  min-height: 100vh;
+  padding: 20px; /* Give breathing space */
+  overflow-y: auto; /* Allow scroll if content exceeds screen */
 }
 
 .quiz-container {
   background: white;
-  padding: 20px;
+  padding: 25px;
   max-width: 500px;
-  width: 90%;
-  border-radius: 10px;
-  box-shadow: 0 0 10px gray;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
 
 h1, h2 {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 button {
   display: block;
   width: 100%;
-  padding: 12px;
+  padding: 14px;
   margin: 10px 0;
   font-size: 16px;
   background-color: #3498db;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
@@ -41,18 +46,33 @@ button:hover {
 ul {
   list-style: none;
   padding: 0;
+  margin: 10px 0;
 }
 
 ul li {
   background-color: #eee;
   margin: 8px 0;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 12px;
+  border-radius: 6px;
   cursor: pointer;
 }
 
 ul li:hover {
   background-color: #ddd;
+}
+
+label, input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
 .hide {
@@ -63,6 +83,7 @@ ul li:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 #timer {
@@ -70,23 +91,23 @@ ul li:hover {
   color: #e74c3c;
 }
 
-#result-screen h1 {
-    text-align: center;
-}
-
+#result-screen h1,
 #result-screen h3 {
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin-top: 15px;
 }
 
 @media (max-width: 600px) {
-  .quiz-container {
-    width: 95%;
+  body {
     padding: 15px;
   }
 
+  .quiz-container {
+    padding: 20px;
+  }
+
   button {
-    font-size: 14px;
-    padding: 10px;
+    font-size: 15px;
+    padding: 12px;
   }
 }
