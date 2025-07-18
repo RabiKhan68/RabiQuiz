@@ -45,6 +45,18 @@ const leaderboardEl = document.getElementById("leaderboard");
 const timeEl = document.getElementById("time");
 const nextBtn = document.getElementById("next-btn");
 
+document.getElementById("leaderboard-show").addEventListener("click", () => {
+  const leaderboardEl = document.getElementById("leaderboard");
+  leaderboardEl.innerHTML = ""; // Clear existing items
+  loadLeaderboard();
+  // Add list items
+  scores.forEach(entry => {
+    const li = document.createElement("li");
+    li.textContent = `${entry.name}: ${entry.score}`;
+    leaderboardEl.appendChild(li);
+  });
+});
+
 // 👤 Start Quiz after entering name
 document.getElementById("startQuizBtn").addEventListener("click", () => {
   const nameInput = document.getElementById("studentName").value.trim();
