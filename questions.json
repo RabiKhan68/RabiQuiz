@@ -1,366 +1,1124 @@
 {
-  "WebDev": [
-    {
-      "question": "What does HTML stand for?",
-      "options": ["Hyper Text Markup Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language", "Hyper Tool Multiplatform Layout"],
-      "answer": "Hyper Text Markup Language"
-    },
-    {
-      "question": "What does CSS stand for?",
-      "options": ["Creative Style Sheets", "Colorful Site Sheets", "Cascading Style Sheets", "Computer Style Scheme"],
-      "answer": "Cascading Style Sheets"
-    },
-    {
-      "question": "Which property sets the font size in CSS?",
-      "options": ["font-size", "font-weight", "text-size", "font-style"],
-      "answer": "font-size"
-    },
-    {
-      "question": "Which HTML element inserts JavaScript?",
-      "options": ["<code>", "<js>", "<script>", "<javascript>"],
-      "answer": "<script>"
-    },
-    {
-      "question": "How do you create a function in JavaScript?",
-      "options": ["create myFunc()", "def myFunc()", "func myFunc[]", "function myFunc()"],
-      "answer": "function myFunc()"
-    },
-    {
-      "question": "Which HTML attribute is used for inline styles?",
-      "options": ["class", "css", "design", "style"],
-      "answer": "style"
-    },
-    {
-      "question": "What does DOM stand for?",
-      "options": ["Document Object Model", "Digital Object Method", "Document Option Model", "Display Object Method"],
-      "answer": "Document Object Model"
-    },
-    {
-      "question": "How do you comment in CSS?",
-      "options": ["/* comment */", "// comment", "<!-- comment -->", "** comment **"],
-      "answer": "/* comment */"
-    },
-    {
-      "question": "Which HTML tag defines an ordered list?",
-      "options": ["<ol>", "<ul>", "<li>", "<list>"],
-      "answer": "<ol>"
-    },
-    {
-      "question": "Which CSS property affects layout flow?",
-      "options": ["float", "align", "flex", "display"],
-      "answer": "float"
-    }
-  ],
-  "Math": [
-    {
-      "question": "80% of 700 = ____?",
-      "options": ["560", "550", "565", "621"],
-      "answer": "560"
-    },
-    {
-      "question": "P is 5 times Q; Q is what percent less than P?",
-      "options": ["80%", "60%", "90%", "30%"],
-      "answer": "80%"
-    },
-    {
-      "question": "If n(U)=60, n(A)+n(B)−n(A∩B)=50 and n(A∪B)'=10, find n(A∩B).",
-      "options": ["9", "8", "10", "none"],
-      "answer": "9"
-    },
-    {
-      "question": "Solve for x: 2x + 3 = 11.",
-      "options": ["4", "5", "3", "2"],
-      "answer": "4"
-    },
-    {
-      "question": "What is the derivative of x²?",
-      "options": ["2x", "x", "x²", "2"],
-      "answer": "2x"
-    },
-    {
-      "question": "What is the integral of 2x dx?",
-      "options": ["x² + C", "2x² + C", "x + C", "2 + C"],
-      "answer": "x² + C"
-    },
-    {
-      "question": "What is 7 choose 3?",
-      "options": ["35", "21", "15", "30"],
-      "answer": "35"
-    },
-    {
-      "question": "What is the value of π (approx)?",
-      "options": ["3.14", "2.71", "1.61", "4.13"],
-      "answer": "3.14"
-    },
-    {
-      "question": "What is the mean of [5, 10, 15]?",
-      "options": ["10", "7", "12", "5"],
-      "answer": "10"
-    },
-    {
-      "question": "What is the median of [3, 1, 4, 2, 5]?",
-      "options": ["3", "2", "4", "1"],
-      "answer": "3"
-    }
-  ],
-  "GeneralKnowledge": [
-    {
-      "question": "Capital of France?",
-      "options": ["Paris", "Berlin", "Madrid", "Rome"],
-      "answer": "Paris"
-    },
-    {
-      "question": "Largest planet in solar system?",
-      "options": ["Jupiter", "Mars", "Saturn", "Earth"],
-      "answer": "Jupiter"
-    },
-    {
-      "question": "Language spoken in Brazil?",
-      "options": ["Portuguese", "Spanish", "English", "French"],
-      "answer": "Portuguese"
-    },
-    {
-      "question": "Author of ‘To Kill a Mockingbird’?",
-      "options": ["Harper Lee", "Mark Twain", "Ernest Hemingway", "F. Scott Fitzgerald"],
-      "answer": "Harper Lee"
-    },
-    {
-      "question": "Element with symbol 'O'?",
-      "options": ["Oxygen", "Gold", "Silver", "Hydrogen"],
-      "answer": "Oxygen"
-    },
-    {
-      "question": "Who painted the Mona Lisa?",
-      "options": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Claude Monet"],
-      "answer": "Leonardo da Vinci"
-    },
-    {
-      "question": "Currency used in Japan?",
-      "options": ["Yen", "Euro", "Dollar", "Won"],
-      "answer": "Yen"
-    },
-    {
-      "question": "Longest river in the world?",
-      "options": ["Nile", "Amazon", "Yangtze", "Mississippi"],
-      "answer": "Nile"
-    },
-    {
-      "question": "Olympics are held every ____ years.",
-      "options": ["4", "3", "2", "5"],
-      "answer": "4"
-    },
-    {
-      "question": "Which country has the Great Barrier Reef?",
-      "options": ["Australia", "USA", "Mexico", "South Africa"],
-      "answer": "Australia"
-    }
-  ],
-  "History": [
-    {
-      "question": "First US President?",
-      "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
-      "answer": "George Washington"
-    },
-    {
-      "question": "WWII ended in?",
-      "options": ["1945", "1944", "1939", "1950"],
-      "answer": "1945"
-    },
-    {
-      "question": "Who discovered penicillin?",
-      "options": ["Alexander Fleming", "Marie Curie", "Louis Pasteur", "Albert Einstein"],
-      "answer": "Alexander Fleming"
-    },
-    {
-      "question": "Ancient pyramid builders?",
-      "options": ["Egyptians", "Romans", "Greeks", "Mayans"],
-      "answer": "Egyptians"
-    },
-    {
-      "question": "Year first man landed on moon?",
-      "options": ["1969", "1965", "1970", "1960"],
-      "answer": "1969"
-    },
-    {
-      "question": "Fall of Berlin Wall?",
-      "options": ["1989", "1991", "1987", "1990"],
-      "answer": "1989"
-    },
-    {
-      "question": "Renaissance began in which country?",
-      "options": ["Italy", "France", "England", "Spain"],
-      "answer": "Italy"
-    },
-    {
-      "question": "Who was 'The Maid of Orléans'?",
-      "options": ["Joan of Arc", "Catherine the Great", "Queen Victoria", "Marie Antoinette"],
-      "answer": "Joan of Arc"
-    },
-    {
-      "question": "Which empire built Machu Picchu?",
-      "options": ["Incan", "Aztec", "Mayan", "Roman"],
-      "answer": "Incan"
-    },
-    {
-      "question": "The Magna Carta was signed in?",
-      "options": ["1215", "1066", "1492", "1776"],
-      "answer": "1215"
-    }
-  ],
-  "Biology": [
-    {
-      "question": "Basic unit of life?",
-      "options": ["Cell", "Atom", "Molecule", "Organ"],
-      "answer": "Cell"
-    },
-    {
-      "question": "Powerhouse of the cell?",
-      "options": ["Mitochondria", "Nucleus", "Ribosome", "Chloroplast"],
-      "answer": "Mitochondria"
-    },
-    {
-      "question": "Which molecule carries genetic info?",
-      "options": ["DNA", "RNA", "Protein", "Lipid"],
-      "answer": "DNA"
-    },
-    {
-      "question": "Process plants use sunlight?",
-      "options": ["Photosynthesis", "Respiration", "Digestion", "Fermentation"],
-      "answer": "Photosynthesis"
-    },
-    {
-      "question": "Blood cells that carry oxygen?",
-      "options": ["Red blood cells", "White blood cells", "Platelets", "Plasma"],
-      "answer": "Red blood cells"
-    },
-    {
-      "question": "What is homeostasis?",
-      "options": ["Balance of internal environment", "Growth process", "Cell division", "Birth"],
-      "answer": "Balance of internal environment"
-    },
-    {
-      "question": "What structures do plant cells have that animal cells don't?",
-      "options": ["Cell wall and chloroplasts", "Mitochondria", "Nucleus", "Ribosomes"],
-      "answer": "Cell wall and chloroplasts"
-    },
-    {
-      "question": "Which organ filters blood?",
-      "options": ["Kidney", "Liver", "Heart", "Lung"],
-      "answer": "Kidney"
-    },
-    {
-      "question": "Largest organ in the human body?",
-      "options": ["Skin", "Liver", "Brain", "Heart"],
-      "answer": "Skin"
-    },
-    {
-      "question": "What is osmosis?",
-      "options": ["Water movement across membrane", "Protein synthesis", "Cell division", "Energy production"],
-      "answer": "Water movement across membrane"
-    }
-  ],
-  "Chemistry": [
-    {
-      "question": "Water's chemical formula?",
-      "options": ["H2O", "CO2", "O2", "NaCl"],
-      "answer": "H2O"
-    },
-    {
-      "question": "pH less than 7 means the solution is?",
-      "options": ["Acidic", "Neutral", "Basic", "Alkaline"],
-      "answer": "Acidic"
-    },
-    {
-      "question": "Atomic number equals number of?",
-      "options": ["Protons", "Neutrons", "Electrons", "Nucleons"],
-      "answer": "Protons"
-    },
-    {
-      "question": "NaCl is common?",
-      "options": ["Salt", "Sugar", "Acid", "Base"],
-      "answer": "Salt"
-    },
-    {
-      "question": "Gas used to fill balloons?",
-      "options": ["Helium", "Hydrogen", "Oxygen", "Nitrogen"],
-      "answer": "Helium"
-    },
-    {
-      "question": "Avogadro's number is approximately?",
-      "options": ["6.02×10^23", "3.14×10^2", "9.81×10^1", "1.6×10^-19"],
-      "answer": "6.02×10^23"
-    },
-    {
-      "question": "Neutral solution’s pH?",
-      "options": ["7", "1", "14", "9"],
-      "answer": "7"
-    },
-    {
-      "question": "Definition of a mole in chemistry?",
-      "options": ["6.02×10^23 particles", "1 gram", "1 liter", "1 atom"],
-      "answer": "6.02×10^23 particles"
-    },
-    {
-      "question": "What lowers activation energy in a reaction?",
-      "options": ["Catalyst", "Inhibitor", "Solvent", "Reactant"],
-      "answer": "Catalyst"
-    },
-    {
-      "question": "Reaction of HCl and Zn produces?",
-      "options": ["Hydrogen gas", "Oxygen gas", "Chlorine gas", "Nitrogen gas"],
-      "answer": "Hydrogen gas"
-    }
-  ],
-  "Physics": [
-    {
-      "question": "Force equals mass × ____?",
-      "options": ["Acceleration", "Velocity", "Distance", "Time"],
-      "answer": "Acceleration"
-    },
-    {
-      "question": "Acceleration due to gravity is about?",
-      "options": ["9.8 m/s²", "1 m/s²", "9.8 kg/m²", "9.8 m³"],
-      "answer": "9.8 m/s²"
-    },
-    {
-      "question": "Speed of light in vacuum?",
-      "options": ["3×10^8 m/s", "3×10^6 m/s", "3×10^10 m/s", "3×10^5 m/s"],
-      "answer": "3×10^8 m/s"
-    },
-    {
-      "question": "Unit of electric current?",
-      "options": ["Ampere", "Volt", "Ohm", "Watt"],
-      "answer": "Ampere"
-    },
-    {
-      "question":"What is inertia?",
-      "options":["Resistance to change in motion","Force","Mass","Energy"],
-      "answer":"Resistance to change in motion"
-    },
-    {
-      "question":"Who is the father of relativity?",
-      "options":["Albert Einstein","Isaac Newton","Nikola Tesla","Galileo"],
-      "answer":"Albert Einstein"
-    },
-    {
-      "question":"E = mc² expresses relationship between?",
-      "options":["Energy and mass","Force and mass","Power and mass","Speed and mass"],
-      "answer":"Energy and mass"
-    },
-    {
-      "question":"Unit of frequency?",
-      "options":["Hertz","Newton","Joule","Pascal"],
-      "answer":"Hertz"
-    },
-    {
-      "question":"Newton’s 3rd law is about?",
-      "options":["Action-reaction","Work-energy","Equal forces","Inverse gravity"],
-      "answer":"Action-reaction"
-    },
-    {
-      "question":"Kinetic energy formula?",
-      "options":["1/2mv²","mv","mgh","mgh"],
-      "answer":"1/2mv²"
-    }
-  ]
+    "WebDev": [
+        {
+            "question": "What does HTML stand for?",
+            "options": [
+                "Hyper Text Markup Language",
+                "Home Tool Markup Language",
+                "Hyperlinks and Text Markup Language",
+                "Hyper Tool Multiplatform Layout"
+            ],
+            "answer": "Hyper Text Markup Language"
+        },
+        {
+            "question": "What does CSS stand for?",
+            "options": [
+                "Creative Style Sheets",
+                "Colorful Site Sheets",
+                "Cascading Style Sheets",
+                "Computer Style Scheme"
+            ],
+            "answer": "Cascading Style Sheets"
+        },
+        {
+            "question": "Which property sets the font size in CSS?",
+            "options": [
+                "font-size",
+                "font-weight",
+                "text-size",
+                "font-style"
+            ],
+            "answer": "font-size"
+        },
+        {
+            "question": "Which HTML element inserts JavaScript?",
+            "options": [
+                "<code>",
+                "<js>",
+                "<script>",
+                "<javascript>"
+            ],
+            "answer": "<script>"
+        },
+        {
+            "question": "How do you create a function in JavaScript?",
+            "options": [
+                "create myFunc()",
+                "def myFunc()",
+                "func myFunc[]",
+                "function myFunc()"
+            ],
+            "answer": "function myFunc()"
+        },
+        {
+            "question": "Which HTML attribute is used for inline styles?",
+            "options": [
+                "class",
+                "css",
+                "design",
+                "style"
+            ],
+            "answer": "style"
+        },
+        {
+            "question": "What does DOM stand for?",
+            "options": [
+                "Document Object Model",
+                "Digital Object Method",
+                "Document Option Model",
+                "Display Object Method"
+            ],
+            "answer": "Document Object Model"
+        },
+        {
+            "question": "How do you comment in CSS?",
+            "options": [
+                "/* comment */",
+                "// comment",
+                "<!-- comment -->",
+                "** comment **"
+            ],
+            "answer": "/* comment */"
+        },
+        {
+            "question": "Which HTML tag defines an ordered list?",
+            "options": [
+                "<ol>",
+                "<ul>",
+                "<li>",
+                "<list>"
+            ],
+            "answer": "<ol>"
+        },
+        {
+            "question": "Which CSS property affects layout flow?",
+            "options": [
+                "float",
+                "align",
+                "flex",
+                "display"
+            ],
+            "answer": "float"
+        }
+    ],
+    "Math": [
+        {
+            "question": "80% of 700 = ____?",
+            "options": [
+                "560",
+                "550",
+                "565",
+                "621"
+            ],
+            "answer": "560"
+        },
+        {
+            "question": "P is 5 times Q; Q is what percent less than P?",
+            "options": [
+                "80%",
+                "60%",
+                "90%",
+                "30%"
+            ],
+            "answer": "80%"
+        },
+        {
+            "question": "If n(U)=60, n(A)+n(B)−n(A∩B)=50 and n(A∪B)'=10, find n(A∩B).",
+            "options": [
+                "9",
+                "8",
+                "10",
+                "none"
+            ],
+            "answer": "9"
+        },
+        {
+            "question": "Solve for x: 2x + 3 = 11.",
+            "options": [
+                "4",
+                "5",
+                "3",
+                "2"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "What is the derivative of x²?",
+            "options": [
+                "2x",
+                "x",
+                "x²",
+                "2"
+            ],
+            "answer": "2x"
+        },
+        {
+            "question": "What is the integral of 2x dx?",
+            "options": [
+                "x² + C",
+                "2x² + C",
+                "x + C",
+                "2 + C"
+            ],
+            "answer": "x² + C"
+        },
+        {
+            "question": "What is 7 choose 3?",
+            "options": [
+                "35",
+                "21",
+                "15",
+                "30"
+            ],
+            "answer": "35"
+        },
+        {
+            "question": "What is the value of π (approx)?",
+            "options": [
+                "3.14",
+                "2.71",
+                "1.61",
+                "4.13"
+            ],
+            "answer": "3.14"
+        },
+        {
+            "question": "What is the mean of [5, 10, 15]?",
+            "options": [
+                "10",
+                "7",
+                "12",
+                "5"
+            ],
+            "answer": "10"
+        },
+        {
+            "question": "What is the median of [3, 1, 4, 2, 5]?",
+            "options": [
+                "3",
+                "2",
+                "4",
+                "1"
+            ],
+            "answer": "3"
+        }
+    ],
+    "GeneralKnowledge": [
+        {
+            "question": "Capital of France?",
+            "options": [
+                "Paris",
+                "Berlin",
+                "Madrid",
+                "Rome"
+            ],
+            "answer": "Paris"
+        },
+        {
+            "question": "Largest planet in solar system?",
+            "options": [
+                "Jupiter",
+                "Mars",
+                "Saturn",
+                "Earth"
+            ],
+            "answer": "Jupiter"
+        },
+        {
+            "question": "Language spoken in Brazil?",
+            "options": [
+                "Portuguese",
+                "Spanish",
+                "English",
+                "French"
+            ],
+            "answer": "Portuguese"
+        },
+        {
+            "question": "Author of ‘To Kill a Mockingbird’?",
+            "options": [
+                "Harper Lee",
+                "Mark Twain",
+                "Ernest Hemingway",
+                "F. Scott Fitzgerald"
+            ],
+            "answer": "Harper Lee"
+        },
+        {
+            "question": "Element with symbol 'O'?",
+            "options": [
+                "Oxygen",
+                "Gold",
+                "Silver",
+                "Hydrogen"
+            ],
+            "answer": "Oxygen"
+        },
+        {
+            "question": "Who painted the Mona Lisa?",
+            "options": [
+                "Leonardo da Vinci",
+                "Vincent van Gogh",
+                "Pablo Picasso",
+                "Claude Monet"
+            ],
+            "answer": "Leonardo da Vinci"
+        },
+        {
+            "question": "Currency used in Japan?",
+            "options": [
+                "Yen",
+                "Euro",
+                "Dollar",
+                "Won"
+            ],
+            "answer": "Yen"
+        },
+        {
+            "question": "Longest river in the world?",
+            "options": [
+                "Nile",
+                "Amazon",
+                "Yangtze",
+                "Mississippi"
+            ],
+            "answer": "Nile"
+        },
+        {
+            "question": "Olympics are held every ____ years.",
+            "options": [
+                "4",
+                "3",
+                "2",
+                "5"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "Which country has the Great Barrier Reef?",
+            "options": [
+                "Australia",
+                "USA",
+                "Mexico",
+                "South Africa"
+            ],
+            "answer": "Australia"
+        }
+    ],
+    "History": [
+        {
+            "question": "First US President?",
+            "options": [
+                "George Washington",
+                "Thomas Jefferson",
+                "Abraham Lincoln",
+                "John Adams"
+            ],
+            "answer": "George Washington"
+        },
+        {
+            "question": "WWII ended in?",
+            "options": [
+                "1945",
+                "1944",
+                "1939",
+                "1950"
+            ],
+            "answer": "1945"
+        },
+        {
+            "question": "Who discovered penicillin?",
+            "options": [
+                "Alexander Fleming",
+                "Marie Curie",
+                "Louis Pasteur",
+                "Albert Einstein"
+            ],
+            "answer": "Alexander Fleming"
+        },
+        {
+            "question": "Ancient pyramid builders?",
+            "options": [
+                "Egyptians",
+                "Romans",
+                "Greeks",
+                "Mayans"
+            ],
+            "answer": "Egyptians"
+        },
+        {
+            "question": "Year first man landed on moon?",
+            "options": [
+                "1969",
+                "1965",
+                "1970",
+                "1960"
+            ],
+            "answer": "1969"
+        },
+        {
+            "question": "Fall of Berlin Wall?",
+            "options": [
+                "1989",
+                "1991",
+                "1987",
+                "1990"
+            ],
+            "answer": "1989"
+        },
+        {
+            "question": "Renaissance began in which country?",
+            "options": [
+                "Italy",
+                "France",
+                "England",
+                "Spain"
+            ],
+            "answer": "Italy"
+        },
+        {
+            "question": "Who was 'The Maid of Orléans'?",
+            "options": [
+                "Joan of Arc",
+                "Catherine the Great",
+                "Queen Victoria",
+                "Marie Antoinette"
+            ],
+            "answer": "Joan of Arc"
+        },
+        {
+            "question": "Which empire built Machu Picchu?",
+            "options": [
+                "Incan",
+                "Aztec",
+                "Mayan",
+                "Roman"
+            ],
+            "answer": "Incan"
+        },
+        {
+            "question": "The Magna Carta was signed in?",
+            "options": [
+                "1215",
+                "1066",
+                "1492",
+                "1776"
+            ],
+            "answer": "1215"
+        }
+    ],
+    "Biology": [
+        {
+            "question": "Basic unit of life?",
+            "options": [
+                "Cell",
+                "Atom",
+                "Molecule",
+                "Organ"
+            ],
+            "answer": "Cell"
+        },
+        {
+            "question": "Powerhouse of the cell?",
+            "options": [
+                "Mitochondria",
+                "Nucleus",
+                "Ribosome",
+                "Chloroplast"
+            ],
+            "answer": "Mitochondria"
+        },
+        {
+            "question": "Which molecule carries genetic info?",
+            "options": [
+                "DNA",
+                "RNA",
+                "Protein",
+                "Lipid"
+            ],
+            "answer": "DNA"
+        },
+        {
+            "question": "Process plants use sunlight?",
+            "options": [
+                "Photosynthesis",
+                "Respiration",
+                "Digestion",
+                "Fermentation"
+            ],
+            "answer": "Photosynthesis"
+        },
+        {
+            "question": "Blood cells that carry oxygen?",
+            "options": [
+                "Red blood cells",
+                "White blood cells",
+                "Platelets",
+                "Plasma"
+            ],
+            "answer": "Red blood cells"
+        },
+        {
+            "question": "What is homeostasis?",
+            "options": [
+                "Balance of internal environment",
+                "Growth process",
+                "Cell division",
+                "Birth"
+            ],
+            "answer": "Balance of internal environment"
+        },
+        {
+            "question": "What structures do plant cells have that animal cells don't?",
+            "options": [
+                "Cell wall and chloroplasts",
+                "Mitochondria",
+                "Nucleus",
+                "Ribosomes"
+            ],
+            "answer": "Cell wall and chloroplasts"
+        },
+        {
+            "question": "Which organ filters blood?",
+            "options": [
+                "Kidney",
+                "Liver",
+                "Heart",
+                "Lung"
+            ],
+            "answer": "Kidney"
+        },
+        {
+            "question": "Largest organ in the human body?",
+            "options": [
+                "Skin",
+                "Liver",
+                "Brain",
+                "Heart"
+            ],
+            "answer": "Skin"
+        },
+        {
+            "question": "What is osmosis?",
+            "options": [
+                "Water movement across membrane",
+                "Protein synthesis",
+                "Cell division",
+                "Energy production"
+            ],
+            "answer": "Water movement across membrane"
+        }
+    ],
+    "Chemistry": [
+        {
+            "question": "Water's chemical formula?",
+            "options": [
+                "H2O",
+                "CO2",
+                "O2",
+                "NaCl"
+            ],
+            "answer": "H2O"
+        },
+        {
+            "question": "pH less than 7 means the solution is?",
+            "options": [
+                "Acidic",
+                "Neutral",
+                "Basic",
+                "Alkaline"
+            ],
+            "answer": "Acidic"
+        },
+        {
+            "question": "Atomic number equals number of?",
+            "options": [
+                "Protons",
+                "Neutrons",
+                "Electrons",
+                "Nucleons"
+            ],
+            "answer": "Protons"
+        },
+        {
+            "question": "NaCl is common?",
+            "options": [
+                "Salt",
+                "Sugar",
+                "Acid",
+                "Base"
+            ],
+            "answer": "Salt"
+        },
+        {
+            "question": "Gas used to fill balloons?",
+            "options": [
+                "Helium",
+                "Hydrogen",
+                "Oxygen",
+                "Nitrogen"
+            ],
+            "answer": "Helium"
+        },
+        {
+            "question": "Avogadro's number is approximately?",
+            "options": [
+                "6.02×10^23",
+                "3.14×10^2",
+                "9.81×10^1",
+                "1.6×10^-19"
+            ],
+            "answer": "6.02×10^23"
+        },
+        {
+            "question": "Neutral solution’s pH?",
+            "options": [
+                "7",
+                "1",
+                "14",
+                "9"
+            ],
+            "answer": "7"
+        },
+        {
+            "question": "Definition of a mole in chemistry?",
+            "options": [
+                "6.02×10^23 particles",
+                "1 gram",
+                "1 liter",
+                "1 atom"
+            ],
+            "answer": "6.02×10^23 particles"
+        },
+        {
+            "question": "What lowers activation energy in a reaction?",
+            "options": [
+                "Catalyst",
+                "Inhibitor",
+                "Solvent",
+                "Reactant"
+            ],
+            "answer": "Catalyst"
+        },
+        {
+            "question": "Reaction of HCl and Zn produces?",
+            "options": [
+                "Hydrogen gas",
+                "Oxygen gas",
+                "Chlorine gas",
+                "Nitrogen gas"
+            ],
+            "answer": "Hydrogen gas"
+        }
+    ],
+    "Physics": [
+        {
+            "question": "Force equals mass × ____?",
+            "options": [
+                "Acceleration",
+                "Velocity",
+                "Distance",
+                "Time"
+            ],
+            "answer": "Acceleration"
+        },
+        {
+            "question": "Acceleration due to gravity is about?",
+            "options": [
+                "9.8 m/s²",
+                "1 m/s²",
+                "9.8 kg/m²",
+                "9.8 m³"
+            ],
+            "answer": "9.8 m/s²"
+        },
+        {
+            "question": "Speed of light in vacuum?",
+            "options": [
+                "3×10^8 m/s",
+                "3×10^6 m/s",
+                "3×10^10 m/s",
+                "3×10^5 m/s"
+            ],
+            "answer": "3×10^8 m/s"
+        },
+        {
+            "question": "Unit of electric current?",
+            "options": [
+                "Ampere",
+                "Volt",
+                "Ohm",
+                "Watt"
+            ],
+            "answer": "Ampere"
+        },
+        {
+            "question": "What is inertia?",
+            "options": [
+                "Resistance to change in motion",
+                "Force",
+                "Mass",
+                "Energy"
+            ],
+            "answer": "Resistance to change in motion"
+        },
+        {
+            "question": "Who is the father of relativity?",
+            "options": [
+                "Albert Einstein",
+                "Isaac Newton",
+                "Nikola Tesla",
+                "Galileo"
+            ],
+            "answer": "Albert Einstein"
+        },
+        {
+            "question": "E = mc² expresses relationship between?",
+            "options": [
+                "Energy and mass",
+                "Force and mass",
+                "Power and mass",
+                "Speed and mass"
+            ],
+            "answer": "Energy and mass"
+        },
+        {
+            "question": "Unit of frequency?",
+            "options": [
+                "Hertz",
+                "Newton",
+                "Joule",
+                "Pascal"
+            ],
+            "answer": "Hertz"
+        },
+        {
+            "question": "Newton’s 3rd law is about?",
+            "options": [
+                "Action-reaction",
+                "Work-energy",
+                "Equal forces",
+                "Inverse gravity"
+            ],
+            "answer": "Action-reaction"
+        },
+        {
+            "question": "Kinetic energy formula?",
+            "options": [
+                "1/2mv²",
+                "mv",
+                "mgh",
+                "mgh"
+            ],
+            "answer": "1/2mv²"
+        }
+    ],
+    "Computer Hardwares": [
+        {
+            "question": "Which component is considered the brain of the computer?",
+            "options": [
+                "RAM",
+                "CPU",
+                "GPU",
+                "Motherboard"
+            ],
+            "answer": "CPU"
+        },
+        {
+            "question": "What type of memory is used for long-term data storage?",
+            "options": [
+                "RAM",
+                "ROM",
+                "SSD",
+                "Cache"
+            ],
+            "answer": "SSD"
+        },
+        {
+            "question": "Which device is used to input handwritten signatures?",
+            "options": [
+                "Scanner",
+                "Mouse",
+                "Light Pen",
+                "Touchpad"
+            ],
+            "answer": "Light Pen"
+        },
+        {
+            "question": "Which port is commonly used to connect monitors?",
+            "options": [
+                "HDMI",
+                "USB",
+                "RJ45",
+                "Audio Jack"
+            ],
+            "answer": "HDMI"
+        },
+        {
+            "question": "What does PSU stand for in computer hardware?",
+            "options": [
+                "Processor System Unit",
+                "Power Supply Unit",
+                "Primary Storage Unit",
+                "Peripheral System Utility"
+            ],
+            "answer": "Power Supply Unit"
+        },
+        {
+            "question": "Which of these is a volatile memory?",
+            "options": [
+                "Hard Disk",
+                "ROM",
+                "RAM",
+                "SSD"
+            ],
+            "answer": "RAM"
+        },
+        {
+            "question": "Which component improves 3D rendering and gaming performance?",
+            "options": [
+                "NIC",
+                "GPU",
+                "CPU",
+                "Sound Card"
+            ],
+            "answer": "GPU"
+        },
+        {
+            "question": "What type of storage is an SSD?",
+            "options": [
+                "Magnetic",
+                "Optical",
+                "Solid-State",
+                "Liquid-State"
+            ],
+            "answer": "Solid-State"
+        },
+        {
+            "question": "Which part of the computer connects all other components together?",
+            "options": [
+                "CPU",
+                "Motherboard",
+                "RAM",
+                "Hard Disk"
+            ],
+            "answer": "Motherboard"
+        },
+        {
+            "question": "Which device is primarily used to output sound?",
+            "options": [
+                "Monitor",
+                "Microphone",
+                "Speaker",
+                "Scanner"
+            ],
+            "answer": "Speaker"
+        }
+    ],
+    "Islamic Studies": [
+        {
+            "question": "What is the first pillar of Islam?",
+            "options": [
+                "Salah",
+                "Zakat",
+                "Shahadah",
+                "Hajj"
+            ],
+            "answer": "Shahadah"
+        },
+        {
+            "question": "How many times a day are Muslims required to pray?",
+            "options": [
+                "3",
+                "5",
+                "7",
+                "2"
+            ],
+            "answer": "5"
+        },
+        {
+            "question": "What is the holy book of Islam?",
+            "options": [
+                "Torah",
+                "Bible",
+                "Quran",
+                "Hadith"
+            ],
+            "answer": "Quran"
+        },
+        {
+            "question": "Who is the final Prophet in Islam?",
+            "options": [
+                "Isa (A.S)",
+                "Musa (A.S)",
+                "Ibrahim (A.S)",
+                "Muhammad (S.A.W)"
+            ],
+            "answer": "Muhammad (S.A.W)"
+        },
+        {
+            "question": "What is the month of fasting called?",
+            "options": [
+                "Shawwal",
+                "Rajab",
+                "Ramadan",
+                "Muharram"
+            ],
+            "answer": "Ramadan"
+        },
+        {
+            "question": "What is the Islamic pilgrimage to Makkah called?",
+            "options": [
+                "Zakat",
+                "Hajj",
+                "Umrah",
+                "Sawm"
+            ],
+            "answer": "Hajj"
+        },
+        {
+            "question": "How many Surahs are there in the Quran?",
+            "options": [
+                "100",
+                "114",
+                "120",
+                "99"
+            ],
+            "answer": "114"
+        },
+        {
+            "question": "What is Zakat?",
+            "options": [
+                "Fasting",
+                "Charity",
+                "Prayer",
+                "Pilgrimage"
+            ],
+            "answer": "Charity"
+        },
+        {
+            "question": "What is the direction of prayer called in Islam?",
+            "options": [
+                "Qibla",
+                "Kaaba",
+                "Safa",
+                "Marwa"
+            ],
+            "answer": "Qibla"
+        },
+        {
+            "question": "Who was the first Caliph of Islam?",
+            "options": [
+                "Umar ibn Khattab",
+                "Uthman ibn Affan",
+                "Ali ibn Abi Talib",
+                "Abu Bakr Siddiq"
+            ],
+            "answer": "Abu Bakr Siddiq"
+        }
+    ],
+    "Cyber Security": [
+        {
+            "question": "What does the term 'phishing' refer to?",
+            "options": [
+                "Fishing online",
+                "Stealing user data via fake websites",
+                "Encrypting data",
+                "Securing a network"
+            ],
+            "answer": "Stealing user data via fake websites"
+        },
+        {
+            "question": "Which one is a strong password?",
+            "options": [
+                "password123",
+                "qwerty",
+                "MyP@ssw0rd!2025",
+                "abc123"
+            ],
+            "answer": "MyP@ssw0rd!2025"
+        },
+        {
+            "question": "What does a firewall do?",
+            "options": [
+                "Monitors emails",
+                "Protects against unauthorized access",
+                "Backs up data",
+                "Updates software"
+            ],
+            "answer": "Protects against unauthorized access"
+        },
+        {
+            "question": "What is malware?",
+            "options": [
+                "A type of software update",
+                "Malicious software",
+                "Network tool",
+                "Password manager"
+            ],
+            "answer": "Malicious software"
+        },
+        {
+            "question": "Which is a type of malware?",
+            "options": [
+                "VPN",
+                "Firewall",
+                "Trojan",
+                "Router"
+            ],
+            "answer": "Trojan"
+        },
+        {
+            "question": "What is the goal of ransomware?",
+            "options": [
+                "To delete files",
+                "To speed up systems",
+                "To demand payment for access",
+                "To create backups"
+            ],
+            "answer": "To demand payment for access"
+        },
+        {
+            "question": "Which of these helps protect your data online?",
+            "options": [
+                "Disabling antivirus",
+                "Using open Wi-Fi",
+                "Using two-factor authentication",
+                "Clicking unknown links"
+            ],
+            "answer": "Using two-factor authentication"
+        },
+        {
+            "question": "What is social engineering in cyber security?",
+            "options": [
+                "Engineering software",
+                "Manipulating people to give up confidential info",
+                "Building websites",
+                "Designing networks"
+            ],
+            "answer": "Manipulating people to give up confidential info"
+        },
+        {
+            "question": "What is the function of antivirus software?",
+            "options": [
+                "Makes websites load faster",
+                "Detects and removes malicious software",
+                "Saves passwords",
+                "Blocks ads"
+            ],
+            "answer": "Detects and removes malicious software"
+        },
+        {
+            "question": "Which of the following is a secure website?",
+            "options": [
+                "http://example.com",
+                "https://example.com",
+                "www.example.com",
+                "ftp://example.com"
+            ],
+            "answer": "https://example.com"
+        }
+    ],
+    "Computer Networks": [
+        {
+            "question": "What does LAN stand for?",
+            "options": [
+                "Local Access Node",
+                "Large Area Network",
+                "Local Area Network",
+                "Light Access Network"
+            ],
+            "answer": "Local Area Network"
+        },
+        {
+            "question": "Which device connects multiple networks together?",
+            "options": [
+                "Switch",
+                "Router",
+                "Modem",
+                "Repeater"
+            ],
+            "answer": "Router"
+        },
+        {
+            "question": "What is the purpose of an IP address?",
+            "options": [
+                "To store data",
+                "To identify devices on a network",
+                "To protect from viruses",
+                "To encrypt files"
+            ],
+            "answer": "To identify devices on a network"
+        },
+        {
+            "question": "Which protocol is used to transfer web pages?",
+            "options": [
+                "FTP",
+                "SMTP",
+                "HTTP",
+                "SSH"
+            ],
+            "answer": "HTTP"
+        },
+        {
+            "question": "What does Wi-Fi stand for?",
+            "options": [
+                "Wireless Fidelity",
+                "Wired Firewall",
+                "Wide Filter",
+                "Wireless Format Interface"
+            ],
+            "answer": "Wireless Fidelity"
+        },
+        {
+            "question": "Which layer of the OSI model handles routing?",
+            "options": [
+                "Physical",
+                "Data Link",
+                "Network",
+                "Transport"
+            ],
+            "answer": "Network"
+        },
+        {
+            "question": "Which device filters and forwards packets based on IP addresses?",
+            "options": [
+                "Router",
+                "Switch",
+                "Bridge",
+                "Hub"
+            ],
+            "answer": "Router"
+        },
+        {
+            "question": "Which of the following is a valid IPv4 address?",
+            "options": [
+                "192.168.0.1",
+                "300.45.22.1",
+                "abc.def.ghi.jkl",
+                "192.168@0@1"
+            ],
+            "answer": "192.168.0.1"
+        },
+        {
+            "question": "What does DNS stand for?",
+            "options": [
+                "Domain Name Server",
+                "Data Network System",
+                "Digital Node Service",
+                "Direct Network Setup"
+            ],
+            "answer": "Domain Name Server"
+        },
+        {
+            "question": "Which protocol is used to send emails?",
+            "options": [
+                "FTP",
+                "SMTP",
+                "HTTP",
+                "TCP"
+            ],
+            "answer": "SMTP"
+        }
+    ]
 }
