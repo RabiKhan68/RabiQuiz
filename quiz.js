@@ -191,7 +191,7 @@ function saveScoreToLocalAndOnline() {
   let local = JSON.parse(localStorage.getItem("quizScores")) || {};
   if (!local[currentCategory]) local[currentCategory] = [];
   local[currentCategory].push(score);
-  if (local[currentCategory].length > 5) local[currentCategory].shift(); // keep last 5
+  if (local[currentCategory].length > 10) local[currentCategory].shift(); // keep last 5
   localStorage.setItem("quizScores", JSON.stringify(local));
 
   // Save to Firestore
