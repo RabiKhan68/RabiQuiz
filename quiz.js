@@ -213,7 +213,7 @@ function displayLocalScores() {
 // Leaderboard
 async function loadLeaderboard() {
   leaderboardEl.innerHTML = "Loading...";
-  const q = query(collection(db, "scores"), orderBy("score", "desc"), limit(5));
+  const q = query(collection(db, "scores"), orderBy("score", "desc"), limit(10));
   const snapshot = await getDocs(q);
 
   leaderboardEl.innerHTML = "";
